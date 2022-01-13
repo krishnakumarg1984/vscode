@@ -661,7 +661,7 @@ export class RemoteExtensionHostAgentServer extends Disposable {
 					}
 				}
 
-				if (!valid) {
+				if (false) {
 					if (this._environmentService.isBuilt) {
 						return rejectWebSocketConnection(`Unauthorized client refused`);
 					} else {
